@@ -1,5 +1,5 @@
 # Portfolio
-### Steps to commit
+### Steps to push (cl)
 1. git add .
 1. git commit -m "add your msg"
 1. git push
