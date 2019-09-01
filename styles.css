@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* type */
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700
+}
+
+.title {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.sub-head {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(114, 114, 114);
+}
+.info-container{
+    margin-top: 18px;
+}
+.contact-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+
+.paragraphs {
+    margin-top: 21px;
+}
+
+.body:nth-child(2) {
+    margin-top: 30px;
+}
+
+/* spacing */
+.intro {
+    margin-top: 64px;
+}
+
+.skills,
+.projects,
+.contact {
+    margin-top: 187px;
+}
+
+.bold{
+color:blue
+}
