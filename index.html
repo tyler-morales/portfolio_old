@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Hind:700|Montserrat:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/34a50a5364.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Tyler Morales – Front End Developer</title>
 </head>
 
-<body>
+<body id="top">
     <div class='nav'>
         <div class='logo'>tmo.</div>
         <div class='r-nav'>
-            <div class='sub-head nc'><a href="#">Projects</a></div>
-            <div class='sub-head nc'><a href="#">Contact</a></div>
+            <div class='sub-head nc'><a href="#projects">Projects</a></div>
+            <div class='sub-head nc'><a href="#contact">Contact</a></div>
         </div>
     </div>
 
     <div class='intro'>
         <div class='l-intro'>
             <img src="imgs/cafe.jpg" alt="profile image">
-            <a href="mailto:someone@example.com?Subject=Greetings" target="_top">
+            <a href="mailto:moratyle@gmail.com?Subject=Greetings" target="_top">
                 <div class='sub-head intro-email'>moratyle@gmail.com</div>
             </a>
         </div>
@@ -38,7 +39,7 @@
                     <span class="bold">purposeful design</span> has been important to me. Ultimately, this
                     fascination
                     with
-                    <span class="bold">creativity</span> and <span class="bold">design</span> hasled me to find web
+                    <span class="bold">creativity</span> and <span class="bold">design</span> has led me to find web
                     development the perfect landscape to extend my passion towards
                     building <span class="bold">interactive</span> and <span class="bold">intuitive</span> web
                     experiences.
@@ -70,26 +71,64 @@
         </div>
     </div>
 
-    <div class='projects'>
+    <div id="projects" class='projects'>
         <div class='title'>Projects</div>
+        <div class='project-container'>
+            <div class='item'>
+                <div class='img'></div>
+                <div class='title'>Travel Planner</div>
+                <p class="body">A simple web application to document how and where to travel. Simply enter a few stats
+                    about your next trip and allow the app do the rest for you.
+                </p>
+                <div class='read-more'><a href="#">Read More <i class="fas fa-arrow-right"></i></a></div>
+            </div>
+            <div class='item'>
+                <div class='img'></div>
+                <div class='title'>Plant Power</div>
+                <p class="body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam est sint esse numquam 
+                    asperiores pariatur, debitis beatae.
+                </p>
+                <div class='read-more'><a href="#">Read More <i class="fas fa-arrow-right"></i></a></div>
+            </div>
+            <div class='item'>
+                <div class='img'></div>
+                <div class='title'>Plant Power</div>
+                <p class="body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam est sint esse numquam 
+                    asperiores pariatur, debitis beatae.
+                </p>
+                <div class='read-more'><a href="#">Read More <i class="fas fa-arrow-right"></i></a></div>
+            </div>
+            <div class='item'>
+                <div class='img'></div>
+                <div class='title'>Plant Power</div>
+                <p class="body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam est sint esse numquam 
+                    asperiores pariatur, debitis beatae.
+                </p>
+                <div class='read-more'><a href="#">Read More <i class="fas fa-arrow-right"></i></a></div>
+            </div>
+        </div>
     </div>
 
-    <div class='contact'>
-        <div class='title'>Contact</div>
+    <div id="contact" class='contact'>
+        <div class='title'>Let's Connect</div>
         <div class='info-container'>
             <li class='contact-info'>Tyler Morales</li>
             <li class='contact-info'>773 318 8539
+            <li>
+                <a href="mailto:moratyle@gmail.com?Subject=Greetings" target="_top" class='contact-info intro-email'>
+                    moratyle@gmail.com
+                </a>
+            </li>
         </div>
-        <li class='contact-info'>moratyle@gmail.com</li>
     </div>
 
     <div class='footer'>
-            <div class='logo'>tmo.</div>
-            <div class='r-nav'>
-                <div class='footer nc'><a href="#">github</a></div>
-                <div class='footer nc'><a href="#">instagram</a></div>
-            </div>
+        <div class='logo'><a href="#top">tmo.</a></div>
+        <div class='r-nav'>
+            <div class='footer-text nc'><a href="#">github</a></div>
+            <div class='footer-text nc'><a href="#">instagram</a></div>
         </div>
+    </div>
 
 </body>
 

@@ -4,6 +4,11 @@
 
 }
 
+:root {
+    --main--color: #2E64C6;
+    --main--hover--color: rgb(27, 62, 126);
+}
+
 body {
     max-width: 1087px;
     margin: 0 auto;
@@ -21,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: rgb(0, 0, 53);
+    color: var(--main--color);
 }
 
 /* type */
@@ -54,6 +59,11 @@ a:hover {
     font-size: 16px;
 }
 
+.read-more{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
 .info-container {
     margin-top: 18px;
 }
@@ -78,7 +88,7 @@ a:hover {
 }
 
 .define {
-    color: #2E64C6;
+    color: var(--main--color);
 }
 
 .skills,
@@ -139,6 +149,37 @@ li {
     text-align: center;
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.img {
+    background-color: rgb(255, 183, 183);
+    height: 285px;
+    width: 415px;
+}
+
+.item>.title {
+    margin-top: 30px;
+}
+.item>.body{
+    max-width: 80%;
+}
+.item>.read-more{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.material-icons{
+    font-size: 1em
+}
+
+
+
 /* contact */
 .contact {
     text-align: center;
@@ -150,4 +191,8 @@ li {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 60px;
+}
+
+.footer-text>a:hover {
+    color: var(--main--hover--color);
 }
