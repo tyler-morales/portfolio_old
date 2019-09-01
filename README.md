@@ -1,5 +1,4 @@
 # Portfolio
-My portfolio: A much cleaner version than before
-Checking if this works
-From github
-code to github
+##Steps to commit
+1. git commit -m "add your msg"
+1. git push
