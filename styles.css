@@ -59,7 +59,7 @@ a:hover {
     font-size: 16px;
 }
 
-.read-more{
+.read-more {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
@@ -120,7 +120,8 @@ a:hover {
 /* intro */
 .intro {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: auto;
     grid-gap: 40px;
 }
 
@@ -138,6 +139,7 @@ a:hover {
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
+    flex-flow: wrap;
 }
 
 li {
@@ -151,7 +153,8 @@ li {
 
 .project-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: auto;
     margin-top: 40px;
     justify-content: center;
     grid-gap: 50px;
@@ -166,19 +169,20 @@ li {
 .item>.title {
     margin-top: 30px;
 }
-.item>.body{
+
+.item>.body {
     max-width: 80%;
 }
-.item>.read-more{
+
+.item>.read-more {
     margin-top: 30px;
     display: flex;
     align-items: center;
 }
-.material-icons{
+
+.material-icons {
     font-size: 1em
 }
-
-
 
 /* contact */
 .contact {

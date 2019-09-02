@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1041px) {
+    .title {
+        font-size: 3.5vw;
+        line-height: 4vw;
+    }
+
+    .intro {
+        background-color: #45267525;
+    }
+}
+
+@media only screen and (max-width: 919px) {
+    .title {
+        font-size: 5.4vw;
+        line-height: 5.4vw;
+    }
+
+    .intro {
+        background-color: #ff000025;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .title {
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+
+    .intro {
+        background-color: #e5ff0025;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .skills-list {
+        padding: 0 30px
+    }
+    .item{
+        background-color: rgba(145, 255, 0, 0.164);
+    }
+    .item>.body{
+        max-width: 95%;
+    }
+}
