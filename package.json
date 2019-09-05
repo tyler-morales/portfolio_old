@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My front end portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moratyle/portfolio.git"
+  },
+  "author": "Tyler Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moratyle/portfolio/issues"
+  },
+  "homepage": "https://github.com/moratyle/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
