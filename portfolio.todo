@@ -2,4 +2,4 @@
 - [x] Fix intro responsiveness at phone level
 - [x] Add responsiveness to intro section
 - [] Convert to BEM
-- [] install sass
+- [x] install sass

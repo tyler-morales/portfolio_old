@@ -1,0 +1,40 @@
+.nav__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700
+}
+
+.heading__primary-main {
+    font-family: 'Hind', sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.sub-head {
+    font-family: 'Hind', sans-serif;
+    font-size: 2rem;
+}
+
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $default-font-size;
+    line-height: 3rem;
+    color: $color--grey;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $default-font-size;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $default-font-size;
+}
+
+
+.contact-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $default-font-size;
+    line-height: 3.1rem;
+}
