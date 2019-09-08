@@ -1,7 +1,3 @@
-.u-margin-top {
-    margin-top: 2.1rem;
-}
-
 .u-accent-color {
     color: $color--primary;
 }
@@ -14,11 +10,15 @@
     font-weight: bold;
 }
 
-.u-margin-left:nth-child(n) {
-    margin-left: 3rem;
-}
-
 .u-photo-auto-resize {
     max-width: 100%;
     height: auto;
+}
+
+.u-center-text {
+    text-align: center;
+}
+
+.u-space-headers {
+    margin-bottom: $space-heads;
 }

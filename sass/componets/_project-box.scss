@@ -8,10 +8,23 @@
 
 .project-box {
 
+    box-shadow: 0 1.5rem 4rem rgba($color--black, .15);
+    padding: 2rem;
+    border-radius: 1rem;
+
+    &__img {
+        max-height: 100rem;
+    }
+
     &__heading {
         margin-top: 2rem;
     }
-    &__text{
+
+    &__text {
         margin-top: 1rem;
+    }
+
+    &__btn {
+        margin-top: 1.5rem;
     }
 }

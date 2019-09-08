@@ -1,0 +1,9 @@
+@media only screen and (max-width: 540px) {
+    .intro {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+    .grid-col-2 {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+}

@@ -15,4 +15,10 @@ body {
     margin: 0 auto;
     padding: 0 4rem;
     box-sizing: border-box;
+
+    background-color: $color--offwhite;
+}
+
+a:link {
+    text-decoration: none;
 }

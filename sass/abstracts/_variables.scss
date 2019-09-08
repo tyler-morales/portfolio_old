@@ -1,9 +1,15 @@
 // colors
-$color--primary:#2E64C6;
-$color--primary--dark:rgb(27, 62, 126);
-$color--grey:rgb(114, 114, 114);
+$color--primary:#434563;
+
+$color--grey:rgb(103, 103, 103);
 $color--black:rgb(0, 0, 0);
 $color--white:rgb(255, 255, 255);
 
-//font
+$color--offwhite:#F9F9F9;
+
+//font size
 $default-font-size: 1.6rem;
+
+// spacing
+$space-sections: 18.7rem;
+$space-heads: 4rem;
