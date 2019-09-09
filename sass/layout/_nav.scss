@@ -14,14 +14,14 @@
         &-text {
             font-family: 'Hind', sans-serif;
             font-size: 2rem;
-            color: $color--black;
+            color: $black;
 
             &:not(:last-child) {
                 margin-right: 3rem;
             }
 
             &:hover {
-                color: $color--primary;
+                color: $primary;
             }
         }
     }
