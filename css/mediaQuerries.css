@@ -2,8 +2,19 @@
     .intro {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
+
     .grid-col-2 {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .footer {
+        margin-bottom: 3rem;
+
+    }
+
+    body {
+        padding: 0 1.5rem;
+
     }
 
 }
