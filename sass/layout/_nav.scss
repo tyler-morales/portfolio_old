@@ -1,20 +1,15 @@
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include header;
+
     margin-top: 6rem;
 
     &__logo {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 3rem;
-        font-weight: 700;
+        @include logoStyle;
     }
 
     &__links {
         &-text {
-            font-family: 'Hind', sans-serif;
-            font-size: 2rem;
-            color: $black;
+            @include linkText;
 
             &:not(:last-child) {
                 margin-right: 3rem;

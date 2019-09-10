@@ -57,17 +57,16 @@
         &__text {
             font-family: 'Montserrat', sans-serif;
             font-size: $default-font-size;
-            line-height: 3.1rem;
+            line-height: 3.4rem;
+            color: $black;
 
             &--link {
-                margin-top: .2rem;
-
                 &:link {
                     color: $black;
                 }
 
                 &:hover {
-                    color: $primary;
+                    color: $white;
                 }
             }
         }

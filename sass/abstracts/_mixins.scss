@@ -1,0 +1,18 @@
+@mixin header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin logoStyle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $black;
+}
+
+@mixin linkText {
+    font-family: 'Hind', sans-serif;
+    font-size: 2rem;
+    color: $black;
+}

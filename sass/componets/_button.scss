@@ -14,12 +14,12 @@
     &:hover {
         background-color: $primary;
         color: $white;
-        box-shadow: 0 1rem 2rem rgba($black, .15);
+        box-shadow: $box-shadow;
         transform: translateY(-4px)
     }
 
     &:active {
-        box-shadow: 0 1rem 2rem rgba($black, .15);
+        box-shadow: $box-shadow;
         transform: translateY(0)
     }
 }

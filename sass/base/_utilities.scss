@@ -7,7 +7,9 @@
 }
 
 .u-bold {
-    font-weight: bold;
+    font-weight: 700;
+    color: rgba($primary,.8);
+    letter-spacing: 1px;
 }
 
 .u-photo-auto-resize {
