@@ -3,6 +3,10 @@
     margin-bottom: 10rem;
     margin-top: $space-sections;
 
+    @include respond(phone) {
+        margin-bottom: 3rem;
+    }
+
     &__logo {
         @include logoStyle;
 

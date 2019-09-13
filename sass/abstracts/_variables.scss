@@ -8,10 +8,13 @@ $white:rgb(255, 255, 255);
 $offwhite:#F9F9F9;
 
 $box-shadow: 0 1rem 2rem rgba($black, .2);
+$box-shadow-light: 0 1rem 2rem rgba($black, .1);
+$box-shadow-color: 0 1rem 2rem rgba(rgb(0, 0, 122), .1);
 
 //font size
 $default-font-size: 1.6rem;
 
 // spacing
 $space-sections: 18.7rem;
+$space-sections-sm: 8rem;
 $space-heads: 1.5rem;

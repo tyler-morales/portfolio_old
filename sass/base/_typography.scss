@@ -2,6 +2,10 @@
     font-family: 'Hind', sans-serif;
     font-size: 4rem;
     line-height: 5rem;
+
+    @include respond(tab-port){
+        text-align: center;
+    }
 }
 
 .sub-head {
@@ -16,6 +20,17 @@
     color: $grey;
 }
 
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    color: $grey;
+    text-align: center;
+    font-size: 1.2rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: $default-font-size;
@@ -24,5 +39,3 @@
 .footer {
     font-family: 'Montserrat', sans-serif;
 }
-
-
