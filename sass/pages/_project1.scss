@@ -1,22 +1,20 @@
 .project-header {
     margin-top: 7rem;
 
+    &--title {
+        text-align: center;
+    }
+
     .header__grid {
         display: grid;
-        // grid-rows: auto auto;
         justify-content: center;
         grid-gap: 2.5rem;
     }
 
 
     &--img {
-        // max-width: 75rem;
         margin-top: $space-heads;
         box-shadow: $box-shadow;
-    }
-
-    &--caption {
-        // margin-top: -3rem;
     }
 }
 
@@ -36,7 +34,7 @@
         margin-top: 1.5rem;
     }
 
-    &__list-items {
+    &__list {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
         grid-auto-rows: auto;
@@ -54,25 +52,23 @@
 
         }
 
+        &--heads {
+            margin-bottom: 1rem;
+        }
+
         &--bullets {
+            color: $grey;
+            padding: .3rem;
+        }
 
-            h2 {
-                margin-bottom: 1rem;
-            }
-
-            li {
-                color: $grey;
-                padding: .3rem;
-            }
-
-            .last-item {
-                margin-top: 2rem;
-            }
+        .last-item {
+            margin-top: 2rem;
         }
     }
 }
 
 .section-thought {
+    margin: $space-sections auto;
 
     .thought__grid {
         display: grid;
