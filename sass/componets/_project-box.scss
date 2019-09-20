@@ -12,14 +12,14 @@
 
 .project-box {
 
-    box-shadow: 0 1.5rem 4rem rgba($black, .15);
+    box-shadow: var(--shadow-light);
     padding: 3rem;
     border-radius: 1rem;
     background: linear-gradient(135deg, rgba(grey, .1), transparent);
 
     &__img {
         max-height: 100rem;
-        box-shadow: $box-shadow-light;
+        box-shadow: var(--shadow-light);
         border-radius: .5rem;
     }
 

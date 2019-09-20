@@ -15,14 +15,14 @@
 
 .paragraph {
     font-family: 'Montserrat', sans-serif;
-    font-size: $default-font-size;
+    font-size: var(--default-font-size);
     line-height: 3rem;
-    color: $grey;
+    color: var(--grey);
 }
 
 .caption {
     font-family: 'Montserrat', sans-serif;
-    color: $grey;
+    color: var(--grey);
     text-align: center;
     font-size: 1.2rem;
 
@@ -33,7 +33,7 @@
 
 .btn {
     font-family: 'Montserrat', sans-serif;
-    font-size: $default-font-size;
+    font-size: var(--default-font-size);
 }
 
 .footer {

@@ -1,5 +1,5 @@
 .section-thought {
-    margin: $space-sections auto;
+    margin: var(--space-sections) auto;
 
     .thought__grid {
         display: grid;
@@ -11,7 +11,7 @@
         margin-top: 3rem;
 
         &--item1 {
-            box-shadow: $box-shadow-light;
+            box-shadow: var(--shadow-light);
         }
 
         &--item2 {
@@ -26,16 +26,16 @@
 }
 
 .section__wire-frames {
-    margin-top: $space-sections;
+    margin-top: var(--space-sections);
 
     @include respond(phone) {
-        margin: $space-sections-sm auto;
+        margin: var(--space-sections-sm) auto;
     }
 
     .wire-frames__text {
 
         &--title {
-            margin-bottom: $space-heads;
+            margin-bottom: var(--space-heads);
         }
 
         &--paras {
@@ -59,7 +59,7 @@
 
         &--img {
             max-width: 45rem;
-            box-shadow: $box-shadow-light;
+            box-shadow: var(--shadow-light);
         }
 
         &--caption {
@@ -70,10 +70,10 @@
 }
 
 .section__final {
-    margin-top: $space-sections;
+    margin-top: var(--space-sections);
 
     @include respond(phone) {
-        margin: $space-sections-sm auto;
+        margin: var(--space-sections-sm) auto;
     }
 
     .final__imgs {
@@ -91,7 +91,7 @@
         // max-width: 65rem;
 
         &--img {
-            box-shadow: $box-shadow-light;
+            box-shadow: var(--shadow-light);
             width: 100%;
         }
 

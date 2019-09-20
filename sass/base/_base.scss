@@ -29,7 +29,7 @@ body {
     margin: 0 auto;
     padding: 0 4rem;
     box-sizing: border-box;
-    background-color: $offwhite;
+    background-color: var(--offwhite);
 
     @include respond(phone) {
         padding: 1.5rem;

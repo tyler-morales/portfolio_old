@@ -1,9 +1,9 @@
 .overview {
     max-width: 75rem;
-    margin: $space-sections auto;
+    margin: var(--space-sections) auto;
 
     @include respond(phone) {
-        margin: $space-sections-sm auto;
+        margin: var(--space-sections-sm) auto;
     }
 
     &--subhead {
@@ -23,7 +23,7 @@
 
         margin-top: 3.5rem;
 
-        font-size: $default-font-size;
+        font-size: var(--default-font-size);
         font-family: 'Montserrat', sans-serif;
 
         @include respond(phone) {
@@ -37,7 +37,7 @@
         }
 
         &--bullets {
-            color: $grey;
+            color: var(--grey);
             padding: .3rem;
         }
 

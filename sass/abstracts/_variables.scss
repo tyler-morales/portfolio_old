@@ -1,20 +1,22 @@
-// colors
-$primary:#434563;
+:root {
+    // colors
+    --primary: #434563;
+    --black: #000000;
+    --white: #ffffff;
+    --offwhite: #F9F9F9;
 
-$grey:rgb(103, 103, 103);
-$black:rgb(0, 0, 0);
-$white:rgb(255, 255, 255);
+    --grey: rgb(103, 103, 103);
 
-$offwhite:#F9F9F9;
+    //shadows
+    --shadow-dark: 0 1rem 2rem rgba(0, 0, 0, .2);
+    --shadow-light: 0 1rem 2rem rgba(0, 0, 0, .1);
 
-$box-shadow: 0 1rem 2rem rgba($black, .2);
-$box-shadow-light: 0 1rem 2rem rgba($black, .1);
-$box-shadow-color: 0 1rem 2rem rgba(rgb(0, 0, 122), .1);
+    //spacing
+    --space-sections: 18.7rem;
+    --space-sections-sm: 8rem;
+    --space-heads: 1.5rem;
 
-//font size
-$default-font-size: 1.6rem;
 
-// spacing
-$space-sections: 18.7rem;
-$space-sections-sm: 8rem;
-$space-heads: 1.5rem;
+    //font
+    --default-font-size: 1.6rem;
+}

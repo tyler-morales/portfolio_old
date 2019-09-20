@@ -12,7 +12,7 @@
     }
 
     &--img {
-        margin-top: $space-heads;
-        box-shadow: $box-shadow;
+        margin-top: var(--space-heads);
+        box-shadow: var(--shadow-light);
     }
 }

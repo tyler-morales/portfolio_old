@@ -29,7 +29,7 @@
 }
 
 .section-skills {
-    margin-top: $space-sections;
+    margin-top: var(--space-sections);
     text-align: center;
 
     .skills-list {
@@ -48,11 +48,11 @@
 }
 
 .section-projects {
-    margin-top: $space-sections;
+    margin-top: var(--space-sections);
 }
 
 .section-contact {
-    margin-top: $space-sections;
+    margin-top: var(--space-sections);
     text-align: center;
 
     .contact {
@@ -60,17 +60,17 @@
 
         &__text {
             font-family: 'Montserrat', sans-serif;
-            font-size: $default-font-size;
+            font-size: var(--default-font-size);
             line-height: 3.4rem;
-            color: $black;
+            color: var(--black);
 
             &--link {
                 &:link {
-                    color: $black;
+                    color: var(--black);
                 }
 
                 &:hover {
-                    color: $white;
+                    color: var(--white);
                 }
             }
         }

@@ -8,13 +8,13 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color: $black;
+    color: var(--black);
 }
 
 @mixin linkText {
     font-family: 'Hind', sans-serif;
     font-size: 2rem;
-    color: $black;
+    color: var(--black);
 }
 
 @mixin respond($breakpoint) {

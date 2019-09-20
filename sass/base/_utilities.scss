@@ -1,5 +1,5 @@
 .u-accent-color {
-    color: $primary;
+    color: var(--primary);
 }
 
 .u-padding-lf {
@@ -8,7 +8,7 @@
 
 .u-bold {
     font-weight: 700;
-    color: rgba($primary,.8);
+    color: rgba(var(--primary),.8);
     letter-spacing: 1px;
 }
 
@@ -22,5 +22,5 @@
 }
 
 .u-space-headers {
-    margin-bottom: $space-heads;
+    margin-bottom: var(--space-heads);
 }
