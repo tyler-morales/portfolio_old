@@ -34,8 +34,6 @@ body {
     @include respond(phone) {
         padding: 1.5rem;
     }
-
-
 }
 
 a:link {

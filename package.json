@@ -15,7 +15,6 @@
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css",
 
     "deploy": "gh-pages -d dist"
-
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,7 @@
   },
   "author": "Tyler Morales",
   "license": "ISC",
-  "homepage": "https://tyler-morales.github.io/portfolio",
+  "homepage": "http://tyler-morales.github.io/portfolio",
   "bugs": {
     "url": "https://github.com/tyler-morales/portfolio/issues"
   },
