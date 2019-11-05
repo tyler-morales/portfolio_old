@@ -88,22 +88,11 @@
         }
 
         margin: 2rem auto;
-        // max-width: 65rem;
 
         &--img {
             box-shadow: var(--shadow-light);
             width: 100%;
         }
-
-        // &--1 {
-        //     width: 15rem;
-        //     align-self: end;
-
-        //     @include respond(phone) {
-        //         grid-template-columns: 1fr;
-        //         width: 100%
-        //     }
-        // }
     }
 
     .final__text {

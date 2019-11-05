@@ -22,15 +22,13 @@
         grid-gap: 5rem;
 
         margin-top: 3.5rem;
-
         font-size: var(--default-font-size);
         font-family: 'Montserrat', sans-serif;
 
         @include respond(phone) {
-            grid-template-columns: auto auto;
+            grid-template-columns: auto;
             text-align: center;
-
-        }
+         }
 
         &--heads {
             margin-bottom: 1rem;

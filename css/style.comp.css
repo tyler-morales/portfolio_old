@@ -181,7 +181,7 @@ ul {
     font-family: 'Montserrat', sans-serif; }
     @media only screen and (max-width: 37.5em) {
       .overview__list {
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         text-align: center; } }
     .overview__list--heads {
       margin-bottom: 1rem; }
