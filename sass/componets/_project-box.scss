@@ -34,7 +34,11 @@
     }
 
     &__text {
-        margin-top: 1rem
+        margin-top: 1rem;
+
+        @include respond (tab-port) {
+            text-align: center;
+        }
     }
 
     &__btn {

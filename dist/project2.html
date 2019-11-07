@@ -26,7 +26,7 @@
         <h1 class="project-header--title heading__primary-main">Calculator Web App</h1>
         <div class="header__grid">
             <img src="imgs/project2/calculatorLaptop.jpg" class="project-header--img u-photo-auto-resize" alt="">
-            <a href="https://github.com/moratyle/calculator" class="caption project-header--caption" target="blank"
+            <a href="https://github.com/tyler-morales/calculator" class="caption project-header--caption" target="blank"
                 title="github">View live site</a>
         </div>
     </header>
@@ -34,13 +34,16 @@
     <!-- project overview -->
     <section class="overview">
         <h1 class="heading__primary-main overview--title">Brief overview</h1>
-        <h2 class="sub-head overview--subhead">Overview</h2>
-        <p class="paragraph overview--para">My personal portfolio is a representation of a static site made with the
-            latest
-            technologies, while only using html and css. I want this website to have a clean aesthetic to showcase my
-            work. My main difficulties were using responsive images and making sure all sizes of the site looked well on
-            all possible screens. This is a growing website. When I produce new work, it gets updated to give a better
-            representation of who I am.
+        <h2 class="sub-head overview--subhead">Getting Started</h2>
+        <p class="paragraph overview--para">
+            I decided to make the classical calculator web app. Althoug there is an abundance of
+            calculator apps, this project was a means to become more familar with CSS grids and javascript
+        </p>
+        <h2 class="sub-head overview--subhead">Background</h2>
+        <p class="paragraph overview--para">
+            Many calculator apps are utilitarian (as they should), but why not have a dynamic calculator
+            interface that changes on different states (basic & scientific)? This was the basis for making
+            my app stand out from the majority.
         </p>
         <div class="overview__list">
             <ul>
@@ -48,7 +51,6 @@
                 <li class="overview__list--bullets">html</li>
                 <li class="overview__list--bullets">css</li>
                 <li class="overview__list--bullets">sass</li>
-                <li class="overview__list--bullets">npm</li>
             </ul>
             <ul>
                 <h2 class="overview__list--heads sub-head">What I learned</h2>
@@ -63,58 +65,66 @@
             </ul>
         </div>
     </section>
+
+    <!-- the situation -->
+    <section class="overview">
+        <h1 class="heading__primary-main overview--title">The Situation</h1>
+        <h2 class="sub-head overview--subhead">The Problem</h2>
+        <p class="paragraph overview--para">
+            To help myself imporove my javascript skills and practice the fundamentals, I thougt that
+            creating a calculator app would help solve parts of that problem.
+        </p>
+
+        <h2 class="sub-head overview--subhead">Strategy</h2>
+        <p class="paragraph overview--para">
+            Keeping accesibility and modernity in mind, I decided on implementing a few couple to keep me on track.
+        </p>
+        <div class="overview__list">
+            <ul class="u-center">
+                <h2 class="overview__list--heads sub-head u-center-text">Goals</h2>
+                <li class="overview__list--bullets">😃 Historically accurate UI</li>
+                <li class="overview__list--bullets">📱 Accesibility across devices</li>
+            </ul>
+        </div>
+    </section>
+
+
     <main>
 
         <!-- though process -->
         <section class="section-thought">
-            <h1 class="heading__primary-main">Thought Process</h1>
+            <h1 class="heading__primary-main">Process</h1>
             <div class="thought__grid">
-                <img src="imgs/project1/sketch1-2x.jpg" class="thought__grid--item1 u-photo-auto-resize" alt="">
+                <img src="imgs/project2/design.jpg" class="thought__grid--item1 u-photo-auto-resize" alt="">
                 <div class="thought__grid--item2">
-                    <h2 class="sub-head">Purpose</h2>
+                    <h2 class="sub-head">Design</h2>
                     <p class="paragraph">
-                        My personal portfolio is a representation of a static site made with the latest technologies,
-                        while
-                        only using html and css. I want this website to have a clean aesthetic to showcase my work. My
-                        main
-                        difficulties were using responsive images and making sure all sizes of the site looked well on
-                        all
-                        possible screens. This is a growing website. When I produce new work, it
-                        gets updated to give a better representation of who I am.
+                        My thinking behind the UI was to make it as simple and intuitive to use. This means that
+                        the numerical and operational buttons would remain in their historic places so as not to
+                        confuse the user. To make this more custom and modern, I wanted to implement a dynamic
+                        gradient that would change based on wheather or not the user was on the basic or scientific
+                        mode.
                     </p>
                 </div>
                 <div class="thought__grid--item3 caption">
-                    Some caption here
+                    Basic wireframe & UI renderings
                 </div>
             </div>
-        </section>
 
-        <!-- wireframes -->
-        <section class="section__wire-frames">
-            <h1 class="wire-frames__text--title heading__primary-main">Wireframes/Sketches</h1>
-
-            <div class="wire-frames__imgs">
-                <div class="item1">
-                    <img src="imgs/project1/sketch2-2x.jpg" alt="" class="wire-frames__imgs--img u-photo-auto-resize">
-                    <div class="wire-frames__imgs--caption caption">Some caption here</div>
-                </div>
-                <div class="item2">
-                    <img src="imgs/project1/sketch3-2x.jpg" alt="" class="wire-frames__imgs--img u-photo-auto-resize">
-                    <div class="wire-frames__imgs--caption caption">Some caption here</div>
-                </div>
-            </div>
-            <div class="wire-frames__text">
-                <div class="wire-frames__text--paras">
-                    <p class="paragraph">Sure all sizes of the site looked well on all possible screens. This is a
-                        growing
-                        website. When I produce new work, it gets updated to give a better representation of who I am.
-                        Along
-                        with development, I am very active in the developer community online and in local Chicago.
-                        Sure all sizes of the site looked well on all possible screens. This is a growing
-                        website. When I produce new work, it gets updated to give a better representation of who I am.
-                        Along
-                        with development, I am very active in the developer community online and in local Chicago.
+            <div class="thought__grid">
+                <div class="thought__grid--item2">
+                    <h2 class="sub-head">Development (coding) </h2>
+                    <p class="paragraph">
+                        Originally, I had some difficulities laying down the foundation for how the app would run. I 
+                        tested having arrays filled with expressions, but eventually settled on implementing a class
+                        structure to hold everything together. 
                     </p>
+                </div>
+                <div>
+                    <img src="imgs/project2/development.jpg" class="thought__grid--item1 u-photo-auto-resize" alt="">
+                    <div class="thought__grid--item3 caption">
+                        The logic behind how the app works
+                    </div>
                 </div>
             </div>
         </section>
@@ -123,19 +133,21 @@
         <section class="section__final">
             <h1 class="heading__primary-main">Final</h1>
             <div class="final__imgs">
-                <img src="imgs/project1/iphoneGIF.gif" alt=""
+                <img src="imgs/project2/calculator_iPad.jpg" alt=""
                     class="final__imgs--img final__imgs--1 u-photo-auto-resize">
-                <img src="imgs/project1/ipadGIF.gif" alt="" class="final__imgs--img final__imgs--2 u-photo-auto-resize">
+                <img src="imgs/project2/iPhone_mockup.jpg" alt="" class="final__imgs--img final__imgs--2 u-photo-auto-resize">
             </div>
             <div class="final__text">
                 <h1 class="sub-head">Final Thoughts</h1>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde deleniti cum
-                    quae
-                    dicta similique facere harum aspernatur laudantium in ex vel voluptatum, quod optio voluptatem alias
-                    omnis, ullam laborum.</p>
+                <p class="paragraph">
+                    I really enjoyed making this project. This was my first forary into the wide world of javascript
+                    and I couldn't be happier with the result. However, I would like to fully implement the scientific 
+                    part of the calculator.
+                </p>
             </div>
         </section>
     </main>
+
 
 
     <!-- footer -->
@@ -153,6 +165,7 @@
             </a>
         </div>
     </footer>
+
 
     <script src="https://kit.fontawesome.com/34a50a5364.js"></script>
 
