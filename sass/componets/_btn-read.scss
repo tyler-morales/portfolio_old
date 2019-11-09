@@ -1,28 +1,35 @@
 .btn-read {
+    // default
     border: transparent;
     background: transparent;
-    // outline: none;
     padding: 5px 8px;
     color: var(--primary);
     border-bottom: 2px solid var(--primary);
 
     &:hover {
         cursor: pointer;
+        background-color: var(--primary);
+        color: white;
         box-shadow: var(--shadow-light);
-    }
-
-    &:focus {
-        outline: 2px solid var(--primary);
-        outline-offset: 0px;
-        cursor: pointer;
-        border: none;
+        transform: translateY(-4px);
     }
 
     &:active {
-        transform: translateY(5px);
         box-shadow: var(--shadow-dark);
+        transform: scale(1.01);
     }
 
-    transition: transform .5s,
-    box-shadow .5s;
+    &:focus {
+        cursor: pointer;
+        outline: 2px solid var(--primary);
+        outline-offset: 0px;
+        border: none;
+        transform: translateY(-4px);
+    }
+
+    // transitions
+    transition: transform .3s,
+    box-shadow .5s,
+    background-color .2s,
+    color .2s;
 }
