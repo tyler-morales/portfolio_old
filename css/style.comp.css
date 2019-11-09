@@ -200,6 +200,16 @@ ul {
     .overview__list .last-item {
       margin-top: 2rem; }
 
+.tag {
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+  background-color: #2E64C6;
+  color: white;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 1.2rem; }
+
 .nav {
   display: flex;
   align-items: center;
