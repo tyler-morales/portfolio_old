@@ -1,4 +1,5 @@
 .hero {
+    margin-bottom: 4rem;
 
     &__heading {
         margin-top: 3rem;
@@ -7,7 +8,8 @@
 
     &__project {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(auto, 43.3rem));        grid-auto-rows: auto;
+        grid-template-columns: repeat(auto-fit, minmax(auto, 43.3rem));
+        grid-auto-rows: auto;
         grid-gap: 4rem;
         justify-content: center;
 
@@ -17,8 +19,14 @@
             display: grid;
             grid-gap: 2rem;
             align-content: flex-start;
-
+            // text-align-last: left;
             margin-top: 6rem;
+
+            @include respond (tab-port) {
+                justify-items: center;
+                text-align: center;
+                margin-top: 0;
+            }
 
             &--title {
                 font-weight: 600;
@@ -32,6 +40,11 @@
             &--description {
                 // margin-top: 2rem;
                 width: 78%;
+
+                @include respond (tab-port) {
+                    text-align: center;
+                    width: 90%;
+                }
             }
 
         }

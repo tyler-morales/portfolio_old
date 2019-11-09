@@ -1,11 +1,10 @@
 .btn-read {
-    max-width: max-content;
     border: transparent;
     background: transparent;
     // outline: none;
     padding: 5px 8px;
     color: var(--primary);
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
 
     &:hover {
         cursor: pointer;
