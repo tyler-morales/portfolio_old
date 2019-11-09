@@ -114,14 +114,15 @@ ul {
   padding: 5px 8px;
   color: var(--primary);
   border-bottom: 1px solid var(--primary);
-  transition: transform .5s; }
+  transition: transform .5s, box-shadow .5s; }
   .btn-read:hover {
     cursor: pointer;
     box-shadow: var(--shadow-light); }
   .btn-read:focus {
     outline: 2px solid var(--primary);
-    outline-offset: -5px;
-    cursor: pointer; }
+    outline-offset: 0px;
+    cursor: pointer;
+    border: none; }
   .btn-read:active {
     transform: translateY(5px);
     box-shadow: var(--shadow-dark); }
