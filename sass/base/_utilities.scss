@@ -4,11 +4,15 @@
 
 .u-padding-lf {
     padding: 0 1.5rem;
+
+    @include respond(tab-land) {
+        padding: 0 .3rem;
+    }
 }
 
 .u-bold {
     font-weight: 700;
-    color: rgba(var(--primary),.8);
+    color: rgba(var(--primary), .8);
     letter-spacing: 1px;
 }
 
@@ -20,6 +24,7 @@
 .u-center-text {
     text-align: center;
 }
+
 .u-center {
     margin: 0 auto;
 }
@@ -28,6 +33,6 @@
     margin-bottom: var(--space-heads);
 }
 
-.u-space-paragraphs{
+.u-space-paragraphs {
     margin-top: 2rem;
 }

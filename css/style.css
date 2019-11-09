@@ -54,6 +54,10 @@ ul {
   @media only screen and (max-width: 56.25em) {
     .heading-primary {
       text-align: center; } }
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary {
+      font-size: 3.2rem;
+      line-height: 4rem; } }
 
 .sub-head {
   font-family: 'Hind', sans-serif;
@@ -85,6 +89,9 @@ ul {
 
 .u-padding-lf {
   padding: 0 1.5rem; }
+  @media only screen and (max-width: 75em) {
+    .u-padding-lf {
+      padding: 0 .3rem; } }
 
 .u-bold {
   font-weight: 700;
