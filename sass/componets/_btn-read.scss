@@ -1,0 +1,27 @@
+.btn-read {
+    max-width: max-content;
+    border: transparent;
+    background: transparent;
+    padding: 5px 8px;
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: var(--shadow-light);
+    }
+
+    &:focus {
+        outline: 2px solid var(--primary);
+        outline-offset: -5px;
+        cursor: pointer;
+    }
+
+    &:active {
+        // transform: tranlateY(1rem);
+        transform: translateY(5px);
+        box-shadow: var(--shadow-dark);
+    }
+
+    transition: transform .5s;
+}

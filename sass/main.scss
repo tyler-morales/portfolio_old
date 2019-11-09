@@ -8,13 +8,16 @@
 @import "base/utilities";
 
 // componets
+@import "componets/btn-read";
 @import "componets/button";
 @import "componets/project-box";
 @import "componets/project-header";
 @import "componets/project-overview";
+@import "componets/tag";
 
 // layout
 @import "layout/nav";
+@import "layout/hero";
 @import "layout/footer";
 
 // pages

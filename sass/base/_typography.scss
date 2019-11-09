@@ -1,9 +1,10 @@
-.heading__primary-main {
+.heading-primary {
     font-family: 'Hind', sans-serif;
     font-size: 4rem;
     line-height: 5rem;
+    font-weight: 700;
 
-    @include respond(tab-port){
+    @include respond(tab-port) {
         text-align: center;
     }
 }

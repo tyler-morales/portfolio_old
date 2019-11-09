@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Hind:700|Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:700,600|Montserrat:400,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
     <title>Tyler Morales – Front End Developer</title>
@@ -17,22 +17,51 @@
 
         <!-- nav -->
         <div class='nav'>
-            <div class='nav__logo'>tmo.</div>
+            <button class='nav__logo'>tmo.</button>
             <div class='nav__links'>
                 <a class='nav__links-text' href="#projects">Projects</a>
                 <a class='nav__links-text' href="#contact">Contact</a>
             </div>
         </div>
 
+        <!-- hero -->
+        <div class="hero">
+            <h1 class='hero__heading'>
+                <span class="heading-primary">Hello, world 🌎! I’m Tyler!</span><br>
+                <span class='heading-primary u-accent-color'>Front End Developer</span>
+                <span class="heading-primary u-padding-lf">&</span>
+                <span class='heading-primary u-accent-color'>UX Designer</span>
+            </h1>
+
+            <div class="hero__project">
+                <img src="imgs/hero_iss.png" alt="Hero image" class="u-photo-auto-resize">
+
+                <div class="hero__project__text">
+                    <h1 class="hero__project__text--title heading-primary">International Space <br>Station Live Tracker
+                    </h1>
+
+                    <div class="hero__project__text__tags">
+                        <div class="tag">Async-await</div>
+                        <div class="tag">Leaflet api</div>
+                        <div class="tag">Fetch api</div>
+                    </div>
+
+                    <p class="hero__project__text--description paragraph">
+                        A real time tracker of the International Space
+                        Station made with vanilla javascript
+                    </p>
+
+                    <form action="project3.html" method="get">
+                        <button type="submit" class="btn btn-read">Read more <i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
         <!-- intro -->
         <div class='intro'>
             <div class='intro__text'>
-                <h1 class='intro__heading'>
-                    <span class="heading__primary-main">Hello, world 🌎! I’m Tyler!</span>
-                    <span class='heading__primary-main u-accent-color'>Front End Developer</span>
-                    <span class="heading__primary-main u-padding-lf">&</span>
-                    <span class='heading__primary-main u-accent-color'>UX Designer</span>
-                </h1>
                 <div class="intro__paragraphs">
                     <p class='intro__paragraphs--paragraph paragraph'>Ever since a young age, I’ve been interested in
                         technology and design. From growing up with the internet, building countless projects and
@@ -72,7 +101,7 @@
 
         <!-- skills -->
         <section class="section-skills">
-            <h1 class='heading__primary-main u-space-headers'>Skills</h1>
+            <h1 class='heading-primary u-space-headers'>Skills</h1>
 
             <p class="paragraph">In addition to my college courses, I have completed online classes to further my front
                 end
@@ -90,14 +119,14 @@
 
         <!-- projects -->
         <section class="section-projects" id="projects">
-            <h1 class='heading__primary-main u-center-text u-space-headers'>Projects</h1>
+            <h1 class='heading-primary u-center-text u-space-headers'>Projects</h1>
 
             <div class='project-grid'>
 
                 <!-- PORTFOLIO -->
                 <div class='project-box'>
                     <img class="project-box__img u-photo-auto-resize" src="imgs/frame_01.png" alt="" loading="lazy">
-                    <div class='project-box__heading heading__primary-main'>Personal Portfolio</div>
+                    <div class='project-box__heading heading-primary'>Personal Portfolio</div>
                     <p class="project-box__text paragraph">
                         My personal portfolio is a representation of my best works. I include what i've
                         learned, accomplished my thought process.
@@ -109,7 +138,7 @@
                 <!-- INTERNATIONAL SPACE STATION -->
                 <div class='project-box'>
                     <img class="project-box__img u-photo-auto-resize" src="imgs/frame_02.png" alt="" loading="lazy">
-                    <div class='project-box__heading heading__primary-main'>ISS Live Tracker</div>
+                    <div class='project-box__heading heading-primary'>ISS Live Tracker</div>
                     <p class="project-box__text paragraph">
                         A real time tracker of the International Space Station made with javascript
                     </p>
@@ -120,7 +149,7 @@
                 <!-- CALCULATOR -->
                 <div class='project-box'>
                     <img class="project-box__img u-photo-auto-resize" src="imgs/frame_03.png" alt="" loading="lazy">
-                    <div class='project-box__heading heading__primary-main'>Calculator Web App</div>
+                    <div class='project-box__heading heading-primary'>Calculator Web App</div>
                     <p class="project-box__text paragraph">
                         My personal portfolio is a representation of my best works. I include what i've
                         learned, accomplished my thought process.
@@ -134,7 +163,7 @@
 
         <!-- contact -->
         <section class="section-contact" id="contact">
-            <h1 class='heading__primary-main u-space-headers'>Let's Connect</h1>
+            <h1 class='heading-primary u-space-headers'>Let's Connect</h1>
             <ul class='contact'>
                 <li class='contact__text'>Tyler Morales</li>
                 <li class='contact__text'>773 318 8539
