@@ -14,96 +14,168 @@
 
 <body id="top">
 
-        <!-- NAV -->
-        <div class='nav'>
-            <button class='nav__logo'>tmo.</button>
-            <div class='nav__links'>
-                <a class='nav__links-text' href="#projects">Projects</a>
-                <a class='nav__links-text' href="#contact">Contact</a>
-            </div>
+    <!-- NAV -->
+    <div class='nav'>
+        <button class='nav__logo'>tmo.</button>
+        <div class='nav__links'>
+            <a class='nav__links-text' href="#projects">Projects</a>
+            <a class='nav__links-text' href="#contact">Contact</a>
         </div>
+    </div>
 
-        <!-- HERO -->
-        <div class="hero">
+    <!-- HERO -->
+    <div class="hero">
 
-            <!-- page title -->
-            <h1 class='hero__heading'>
-                <span class="heading-primary">Hello, world 🌎! I’m Tyler!</span><br>
-                <span class='heading-primary u-accent-color'>Front End Developer</span>
-                <span class="heading-primary u-padding-lf">&</span>
-                <span class='heading-primary u-accent-color'>UX Designer</span>
-            </h1>
+        <!-- page title -->
+        <h1 class='hero__heading'>
+            <span class="heading-primary">Hello, world 🌎! I’m Tyler!</span><br>
+            <span class='heading-primary u-accent-color'>Front End Developer</span>
+            <span class="heading-primary u-padding-lf">&</span>
+            <span class='heading-primary u-accent-color'>UX Designer</span>
+        </h1>
 
-            <!-- main project section -->
-            <div class="hero__project">
+        <!-- main project section -->
+        <div class="hero__project">
 
-                <!-- hero img (left)-->
-                <img src="imgs/hero_iss.png" alt="Hero image" class="u-photo-auto-resize">
+            <!-- hero img (left)-->
+            <img src="imgs/hero_iss.png" alt="Hero image" class="u-photo-auto-resize">
 
-                <!-- text (right) -->
-                <div class="hero__project__text">
+            <!-- text (right) -->
+            <div class="hero__project__text">
 
-                    <!-- project title -->
-                    <h1 class="hero__project__text--title heading-primary">
-                        International Space <br>Station Live Tracker
-                    </h1>
+                <!-- project title -->
+                <h1 class="hero__project__text--title heading-primary">
+                    International Space <br>Station Live Tracker
+                </h1>
 
-                    <!-- project tags -->
-                    <div class="hero__project__text__tags">
-                        <div class="tag">Async-await</div>
-                        <div class="tag">Leaflet api</div>
-                        <div class="tag">Fetch api</div>
-                    </div>
-
-                    <!-- project description -->
-                    <p class="hero__project__text--description paragraph">
-                        A real time tracker of the International Space
-                        Station made with vanilla javascript
-                    </p>
-
-                    <!-- read more button -->
-                    <form action="project3.html" method="get">
-                        <button type="submit" class="btn btn-read">Read more <i class="fas fa-arrow-right"></i></button>
-                    </form>
+                <!-- project tags -->
+                <div class="hero__project__text__tags">
+                    <div class="tag">Async-await</div>
+                    <div class="tag">Leaflet api</div>
+                    <div class="tag">Fetch api</div>
                 </div>
+
+                <!-- project description -->
+                <p class="hero__project__text--description paragraph">
+                    A real time tracker of the International Space
+                    Station made with vanilla javascript
+                </p>
+
+                <!-- read more button -->
+                <form action="project3.html" method="get">
+                    <button type="submit" class="btn btn-read">Read more <i class="fas fa-arrow-right"></i></button>
+                </form>
             </div>
         </div>
+    </div>
 
-        <!-- ABOUT -->
-        <div class='intro'>
-            <div class='intro__text'>
-                <div class="intro__paragraphs">
-                    <p class='intro__paragraphs--paragraph paragraph'>Ever since a young age, I’ve been interested in
-                        technology and design. From growing up with the internet, building countless projects and
-                        constantly having an urge to create anything, <span class="u-bold">purposeful design</span> has
-                        been important to me.
-                        Ultimately, this fascination with <span class="u-bold">creativity</span> and <span
-                            class="u-bold">design</span>
-                        has led me to find web development the perfect landscape to extend my passion towards building
-                        <span class="u-bold">interactive</span> and <span class="u-bold">intuitive</span> web
-                        experiences.
-                    </p>
-                    <p class="intro__paragraphs--paragraph paragraph">Along with development, I am very active in the
-                        developer community online and
-                        in local Chicago meetups. I, amongst others, build up and <span class="u-bold">motivate</span>
-                        other like
-                        minded individuals, <span class="u-bold">document</span> our progress and <span
-                            class="u-bold">learn</span>
-                        the latest technologies with developers <span class="u-bold">globally</span>! Currently, I am
-                        studying Web Development and Design at <span class="u-bold">College of Dupage</span> and plan on
-                        continuing
-                        my education at <span class="u-bold">Columbia College</span>.
-                    </p>
+
+    <!-- WORK -->
+    <section class="section-projects" id="projects">
+        <h1 class='heading-primary u-center-text u-space-headers'>Work</h1>
+
+        <div class='projects-container'>
+
+            <!-- portfolio -->
+            <div class='project-card'>
+
+                <!-- thumbnail -->
+                <img class="project-card__img u-photo-auto-resize" src="imgs/frame_01.png" alt="" loading="lazy">
+
+                <!-- name -->
+                <div class='project-card__name heading-primary'>Personal Portfolio</div>
+
+                <!-- description -->
+                <p class="project-card__description paragraph">
+                    My first case study that dives into strategy, process and thinking.
+                </p>
+
+                <!-- project tags -->
+                <div class="project-card__tags">
+                    <div class="tag">Async-await</div>
+                    <div class="tag">Custom properties</div>
+                    <div class="tag">SCSS</div>
+                    <div class="tag">CSS Grid/ Flexbox</div>
                 </div>
+
+                <!-- read more button -->
+                <form action="project1.html" method="get">
+                    <button type="submit" class="project-card__btn btn btn-read">Read more <i
+                            class="fas fa-arrow-right"></i></button>
+                </form>
             </div>
 
-            <div class='intro__img'>
-                <img src="imgs/cafe.jpg" alt="profile image" class="intro__img--main" loading="lazy">
-                <a href="mailto:moratyle@gmail.com?Subject=Greetings" target="_top" class='btn btn-text'>
-                    moratyle@gmail.com
-                </a>
+            <!-- calculator -->
+            <div class='project-card'>
+
+                <!-- thumbnail -->
+                <img class="project-card__img u-photo-auto-resize" src="imgs/frame_03.png" alt="Calculator project"
+                    loading="lazy">
+
+                <!-- name -->
+                <div class='project-card__name heading-primary'>Calculator</div>
+
+                <!-- description -->
+                <p class="project-card__description paragraph">
+                    An indepth exploration of javascript classes and the DOM
+                </p>
+
+                <!-- project tags -->
+                <div class="project-card__tags">
+                    <div class="tag">js classes</div>
+                    <div class="tag">DOM manipulation</div>
+                    <div class="tag">CSS animations</div>
+                    <div class="tag">data-themes</div>
+                </div>
+
+                <!-- read more button -->
+                <form action="project2.html" method="get">
+                    <button type="submit" class="project-card__btn btn btn-read">Read more <i
+                            class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+
+    <!-- ABOUT -->
+    <div class='intro'>
+        <div class='intro__text'>
+            <div class="intro__paragraphs">
+                <p class='intro__paragraphs--paragraph paragraph'>Ever since a young age, I’ve been interested in
+                    technology and design. From growing up with the internet, building countless projects and
+                    constantly having an urge to create anything, <span class="u-bold">purposeful design</span> has
+                    been important to me.
+                    Ultimately, this fascination with <span class="u-bold">creativity</span> and <span
+                        class="u-bold">design</span>
+                    has led me to find web development the perfect landscape to extend my passion towards building
+                    <span class="u-bold">interactive</span> and <span class="u-bold">intuitive</span> web
+                    experiences.
+                </p>
+                <p class="intro__paragraphs--paragraph paragraph">Along with development, I am very active in the
+                    developer community online and
+                    in local Chicago meetups. I, amongst others, build up and <span class="u-bold">motivate</span>
+                    other like
+                    minded individuals, <span class="u-bold">document</span> our progress and <span
+                        class="u-bold">learn</span>
+                    the latest technologies with developers <span class="u-bold">globally</span>! Currently, I am
+                    studying Web Development and Design at <span class="u-bold">College of Dupage</span> and plan on
+                    continuing
+                    my education at <span class="u-bold">Columbia College</span>.
+                </p>
             </div>
         </div>
+
+        <div class='intro__img'>
+            <img src="imgs/cafe.jpg" alt="profile image" class="intro__img--main" loading="lazy">
+            <a href="mailto:moratyle@gmail.com?Subject=Greetings" target="_top" class='btn btn-text'>
+                moratyle@gmail.com
+            </a>
+        </div>
+    </div>
 
 
     <main>
@@ -126,49 +198,7 @@
             </ul>
         </section>
 
-        <!-- WORK -->
-        <section class="section-projects" id="projects">
-            <h1 class='heading-primary u-center-text u-space-headers'>Projects</h1>
 
-            <div class='project-grid'>
-
-                <!-- portfolio -->
-                <div class='project-box'>
-                    <img class="project-box__img u-photo-auto-resize" src="imgs/frame_01.png" alt="" loading="lazy">
-                    <div class='project-box__heading heading-primary'>Personal Portfolio</div>
-                    <p class="project-box__text paragraph">
-                        My personal portfolio is a representation of my best works. I include what i've
-                        learned, accomplished my thought process.
-                    </p>
-                    <a class="project-box__btn btn btn-text" href="project1.html">Read More <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-
-                <!-- international space station -->
-                <div class='project-box'>
-                    <img class="project-box__img u-photo-auto-resize" src="imgs/frame_02.png" alt="" loading="lazy">
-                    <div class='project-box__heading heading-primary'>ISS Live Tracker</div>
-                    <p class="project-box__text paragraph">
-                        A real time tracker of the International Space Station made with javascript
-                    </p>
-                    <a class="project-box__btn btn btn-text u-margin-top" href="project3.html">Read More <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-
-                <!-- calculator -->
-                <div class='project-box'>
-                    <img class="project-box__img u-photo-auto-resize" src="imgs/frame_03.png" alt="" loading="lazy">
-                    <div class='project-box__heading heading-primary'>Calculator Web App</div>
-                    <p class="project-box__text paragraph">
-                        My personal portfolio is a representation of my best works. I include what i've
-                        learned, accomplished my thought process.
-                    </p>
-                    <a class="project-box__btn btn btn-text u-margin-top" href="project2.html">Read More <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-
-            </div>
-        </section>
 
         <!-- CONTACT -->
         <section class="section-contact" id="contact">

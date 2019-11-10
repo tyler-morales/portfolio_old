@@ -10,7 +10,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(auto, 43.3rem));
         grid-auto-rows: auto;
-        grid-gap: 4rem;
+        gap: 4rem;
         justify-content: center;
 
         margin-top: 4rem;
@@ -18,7 +18,7 @@
         &__text {
             // grid
             display: grid;
-            grid-gap: 2rem;
+            gap: 2rem;
             align-content: flex-start;
 
             margin-top: 6rem;

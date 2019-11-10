@@ -54,6 +54,10 @@ ul {
   @media only screen and (max-width: 56.25em) {
     .heading-primary {
       text-align: center; } }
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary {
+      font-size: 3.2rem;
+      line-height: 4rem; } }
 
 .sub-head {
   font-family: 'Hind', sans-serif;
@@ -85,6 +89,9 @@ ul {
 
 .u-padding-lf {
   padding: 0 1.5rem; }
+  @media only screen and (max-width: 75em) {
+    .u-padding-lf {
+      padding: 0 .3rem; } }
 
 .u-bold {
   font-weight: 700;
@@ -153,7 +160,7 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   grid-auto-rows: auto;
   justify-content: center;
-  grid-gap: 5rem; }
+  gap: 5rem; }
   @media only screen and (max-width: 37.5em) {
     .project-grid {
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); } }
@@ -163,6 +170,9 @@ ul {
   padding: 3rem;
   border-radius: 1rem;
   background: linear-gradient(135deg, rgba(128, 128, 128, 0.1), transparent);
+  display: grid;
+  gap: 2rem;
+  align-content: flex-start;
   transition: all .5s; }
   .project-box:hover {
     box-shadow: var(--shadow-dark);
@@ -188,7 +198,7 @@ ul {
   .project-header .header__grid {
     display: grid;
     justify-content: center;
-    grid-gap: 2.5rem; }
+    gap: 2.5rem; }
   .project-header--img {
     margin-top: var(--space-heads);
     box-shadow: var(--shadow-light); }
@@ -208,7 +218,7 @@ ul {
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
     grid-auto-rows: auto;
     justify-content: center;
-    grid-gap: 5rem;
+    gap: 5rem;
     margin-top: 3.5rem;
     font-size: var(--default-font-size);
     font-family: 'Montserrat', sans-serif; }
@@ -267,12 +277,12 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(auto, 43.3rem));
   grid-auto-rows: auto;
-  grid-gap: 4rem;
+  gap: 4rem;
   justify-content: center;
   margin-top: 4rem; }
   .hero__project__text {
     display: grid;
-    grid-gap: 2rem;
+    gap: 2rem;
     align-content: flex-start;
     margin-top: 6rem; }
     @media only screen and (max-width: 56.25em) {
@@ -320,7 +330,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   grid-auto-rows: auto;
-  grid-gap: 5rem;
+  gap: 5rem;
   margin-top: 10rem; }
   @media only screen and (max-width: 37.5em) {
     .intro {
@@ -398,7 +408,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     grid-auto-rows: auto;
-    grid-gap: 5rem;
+    gap: 5rem;
     justify-items: center;
     margin: 4rem auto; }
     .section__wire-frames .wire-frames__imgs--img {
@@ -417,7 +427,7 @@ ul {
     display: grid;
     grid-template-columns: auto auto;
     grid-auto-rows: auto;
-    grid-gap: 4rem;
+    gap: 4rem;
     justify-items: center;
     margin: 2rem auto; }
     @media only screen and (max-width: 37.5em) {
