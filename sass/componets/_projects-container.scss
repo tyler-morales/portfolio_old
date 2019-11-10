@@ -4,7 +4,7 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 5rem;
 
-    max-width: 90rem; //delete when add a third item
+    //max-width: 90rem; //delete when add a third item
     margin: 0 auto;
 
     @include respond (phone) {
