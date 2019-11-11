@@ -19,9 +19,7 @@
             // grid
             display: grid;
             gap: 2rem;
-            align-content: flex-start;
-
-            margin-top: 6rem;
+            align-content: center;
 
             @include respond (tab-port) {
                 justify-items: center;
