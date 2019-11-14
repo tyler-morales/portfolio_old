@@ -16,7 +16,8 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 18px;
+  line-height: 23px; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -47,7 +48,11 @@ ul {
   font-family: 'Hind', sans-serif;
   font-size: 4rem;
   line-height: 5rem;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 4.2222222rem;
+  line-height: 4.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem; }
   @media only screen and (max-width: 56.25em) {
     .heading-primary {
       text-align: center; } }
@@ -116,23 +121,23 @@ ul {
   background: transparent;
   padding: 5px 8px;
   color: var(--primary);
-  border-bottom: 2px solid var(--primary);
-  transition: transform .3s, box-shadow .5s, background-color .2s, color .2s; }
+  border-bottom: 0.2rem solid var(--primary);
+  transition: transform .3s, box-shadow .5s, background-color .3s, color .3s; }
   .btn-read:hover {
     cursor: pointer;
     background-color: var(--primary);
     color: white;
     box-shadow: var(--shadow-light);
-    transform: translateY(-4px); }
+    transform: translateY(-1px); }
   .btn-read:active {
     box-shadow: var(--shadow-dark);
-    transform: scale(1.01); }
+    transform: translateY(1px); }
   .btn-read:focus {
     cursor: pointer;
     outline: 2px solid var(--primary);
     outline-offset: 0px;
     border: none;
-    transform: translateY(-4px); }
+    transform: translateY(1px); }
 
 .btn-text:link, .btn-text:visited {
   color: var(--primary);
@@ -151,6 +156,13 @@ ul {
 .btn-text:active {
   box-shadow: var(--shadow-dark);
   transform: translateY(0); }
+
+.btn-text:focus {
+  cursor: pointer;
+  outline: 2px solid var(--primary);
+  outline-offset: 0px;
+  border: none;
+  transform: translateY(1px); }
 
 .projects-container {
   display: grid;

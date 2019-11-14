@@ -4,19 +4,19 @@
     background: transparent;
     padding: 5px 8px;
     color: var(--primary);
-    border-bottom: 2px solid var(--primary);
+    border-bottom: .2rem solid var(--primary);
 
     &:hover {
         cursor: pointer;
         background-color: var(--primary);
         color: white;
         box-shadow: var(--shadow-light);
-        transform: translateY(-4px);
+        transform: translateY(-1px);
     }
 
     &:active {
         box-shadow: var(--shadow-dark);
-        transform: scale(1.01);
+        transform: translateY(1px);
     }
 
     &:focus {
@@ -24,12 +24,12 @@
         outline: 2px solid var(--primary);
         outline-offset: 0px;
         border: none;
-        transform: translateY(-4px);
+        transform: translateY(1px);
     }
 
     // transitions
     transition: transform .3s,
     box-shadow .5s,
-    background-color .2s,
-    color .2s;
+    background-color .3s,
+    color .3s;
 }
