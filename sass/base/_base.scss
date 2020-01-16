@@ -37,8 +37,16 @@ body {
     }
 }
 
-a:link {
-    text-decoration: none;
+a {
+
+    &:link {
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: 2px solid var(--primary);
+        outline-offset: 5px;
+    }
 }
 
 ul {

@@ -18,7 +18,7 @@
         &__text {
             // grid
             display: grid;
-            gap: 2rem;
+            gap: 1.5rem;
             align-content: center;
 
             @include respond (tab-port) {
@@ -30,6 +30,15 @@
             &--title {
                 font-weight: 600;
             }
+
+            &--features {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5rem; 
+                padding-bottom: .6rem;
+                letter-spacing: 1px;
+                font-weight: normal;
+                color: var(--primary);
+          }
 
             &--description {
                 width: 78%;

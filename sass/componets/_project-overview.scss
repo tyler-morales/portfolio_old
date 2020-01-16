@@ -1,6 +1,6 @@
 .overview {
     max-width: 75rem;
-    margin: var(--space-sections) auto;
+    margin: 3rem auto;
 
     @include respond(phone) {
         margin: var(--space-sections-sm) auto;
