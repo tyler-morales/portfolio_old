@@ -82,7 +82,11 @@ ul {
   line-height: 4rem;
   margin-bottom: 3.7rem; }
 
-.p-heading {
+.section-heading {
+  font-family: var(--font-montserrat);
+  font-size: 5.2rem; }
+
+.context-block-heading {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.9rem;
   line-height: 3.7rem; }
@@ -140,11 +144,14 @@ ul {
     .u-padding-lf {
       padding: 0 .3rem; } }
 
-.u-bold {
-  font-weight: 700; }
+.u-light {
+  font-weight: 200; }
 
 .u-normal {
   font-weight: normal; }
+
+.u-bold {
+  font-weight: 700; }
 
 .u-photo-auto-resize {
   max-width: 100%;
@@ -262,6 +269,13 @@ ul {
     .projects-container {
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); } }
 
+.context-block--head {
+  margin-bottom: 3.7rem;
+  max-width: 60%; }
+
+.context-block--para {
+  max-width: 80%; }
+
 .project-card {
   box-shadow: var(--shadow-light);
   padding: 3rem;
@@ -316,28 +330,36 @@ ul {
 
 .project-intro {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1.6rem;
+  grid-template-columns: 5fr 1fr;
+  gap: 10rem;
   margin-top: 20rem;
-  margin-bottom: 20rem; }
-  .project-intro--header {
-    grid-column: 1/9; }
-  .project-intro__client-bio {
-    grid-column: 1/9; }
+  margin-bottom: 25.8rem; }
   .project-intro__list-container {
-    grid-column: 10/13;
     display: grid;
     gap: 3.7rem; }
 
-.project-situation--pre-head {
-  font-family: var(--font-montserrat);
-  font-size: 2.9rem;
-  margin-bottom: 3.4rem; }
+.project-scope--heading {
+  margin-bottom: 3.7rem; }
 
-.project-situation--para {
-  font-family: var(--font-montserrat);
-  font-size: 7.6rem;
-  line-height: 11.1rem; }
+.project-scope__list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22.5rem, 1fr));
+  gap: 15.5rem; }
+
+.project-situation {
+  display: grid;
+  margin-bottom: 25.8rem; }
+  .project-situation--pre-head {
+    font-family: var(--font-montserrat);
+    font-size: 2.9rem;
+    margin-bottom: 3.4rem; }
+  .project-situation--para {
+    font-family: var(--font-montserrat);
+    font-size: 7.6rem;
+    line-height: 11.1rem;
+    margin-bottom: 25.8rem; }
+  .project-situation__solution {
+    max-width: 60%; }
 
 .nav {
   display: flex;
@@ -404,7 +426,8 @@ ul {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10rem;
-  margin-top: var(--space-sections); }
+  margin-top: var(--space-sections);
+  margin-top: 20rem; }
   @media only screen and (max-width: 37.5em) {
     .footer {
       margin-bottom: 3rem; } }

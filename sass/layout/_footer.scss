@@ -2,6 +2,7 @@
     @include header;
     margin-bottom: 10rem;
     margin-top: var(--space-sections);
+    margin-top: 20rem;
 
     @include respond(phone) {
         margin-bottom: 3rem;

@@ -1,0 +1,15 @@
+.project-scope {
+    &--heading {
+        margin-bottom: 3.7rem;
+    }
+
+    &__list-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(22.5rem, 1fr));
+        gap: 15.5rem;
+
+        &--list {
+            // grid-column: 1/5;
+        }
+    }
+}

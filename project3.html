@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,200,700&display=swap" rel="stylesheet">
     <meta name="Description" content="Author: Tyler Morales, Catagory: Web Developer Portfolio">
 
     <link rel="stylesheet" href="css/style.css">
@@ -37,7 +37,8 @@
 
         <!-- img -->
         <div class="project-header__img">
-            <div class="project-header__img--placeholder"></div>
+            <img src="imgs/hero_iss.png" alt="Hero image" class="u-photo-auto-resize">
+
         </div>
 
     </header>
@@ -45,13 +46,13 @@
     <!-- PROJECT INTRODUCTION -->
     <section class="project-intro">
         <!-- client bio -->
-        <h3 class="project-intro--header p-heading">An Industry leader and innovator</h3>
-        <div class="project-intro__client-bio">
-            <p class="project-intro__client-bio--para paragraph">The International Space Station (ISS) is a multi-nation
+        <!-- <h3 class="project-intro--header p-heading">An Industry leader and innovator</h3> -->
+        <div class="context-block">
+            <h3 class="context-block--head context-block-heading">An Industry leader and innovator</h3>
+            <p class="context-block--para paragraph">The International Space Station (ISS) is a multi-nation
                 construction project that is the largest single structure humans ever put into space. Its main
                 construction was completed between 1998 and 2011, although the station continually evolves to include
-                new missions and experiments. It has been continuously occupied since Nov. 2, 2000.
-            </p>
+                new missions and experiments. It has been continuously occupied since Nov. 2, 2000.</p>
         </div>
 
         <!-- Short list of project details -->
@@ -76,67 +77,64 @@
 
     </section>
 
-    <!-- the situation -->
+    <!-- THE SITUATION -->
     <section class="project-situation">
         <h3 class="project-situation--pre-head u-normal">The Situation</h3>
-        <p class="project-situation--para u-bold">We need an interactive and real-time view of the ISS with a modern design
+        <p class="project-situation--para u-bold">We need an interactive and real-time view of the ISS with a modern
+            design
         </p>
+
+        <div class="context-block">
+            <h3 class="context-block--head context-block-heading">Translating Data Into a Readable, Digestible &
+                Beautiful
+                Application</h3>
+            <p class="context-block--para paragraph">
+                The International Space Station (ISS) is a multi-nation construction project that is the
+                largest single structure humans ever put into space. Its main construction was
+                completed between 1998 and 2011, although the station continually evolves to include
+                new missions and experiments. It has been continuously occupied since Nov. 2, 2000.
+            </p>
+        </div>
+    </section>
+
+    <!-- SCOPE -->
+    <section class="project-scope">
+        <h2 class="project-scope--heading section-heading u-light">Scope</h2>
+
+        <!-- scope lists -->
+        <div class="project-scope__list-container">
+            <ul class="project-scope__list-container--list">
+                <h3 class="project-scope__list-container--list--title list-heading u-bold">Discovery</h3>
+                <li class="project-scope__list-container--list--el list-item">Workshop</li>
+                <li class="project-scope__list-container--list--el list-item">Research</li>
+                <li class="project-scope__list-container--list--el list-item">Concepts</li>
+                <li class="project-scope__list-container--list--el list-item">Competive Review</li>
+                <li class="project-scope__list-container--list--el list-item">Project Planning</li>
+            </ul>
+            <ul class="project-scope__list-container--list">
+                <h3 class="project-scope__list-container--list--title list-heading u-bold">Strategy</h3>
+                <li class="project-scope__list-container--list--el list-item">Information Architecture</li>
+                <li class="project-scope__list-container--list--el list-item">Interaction Design</li>
+                <li class="project-scope__list-container--list--el list-item">Brand Personalization</li>
+            </ul>
+            <ul class="project-scope__list-container--list">
+                <h3 class="project-scope__list-container--list--title list-heading u-bold">Design</h3>
+                <li class="project-scope__list-container--list--el list-item">Art Direction</li>
+                <li class="project-scope__list-container--list--el list-item">UI Design</li>
+                <li class="project-scope__list-container--list--el list-item">Visual Moodboards</li>
+                <li class="project-scope__list-container--list--el list-item">Wireframes/ Mockup</li>
+            </ul>
+            <ul class="project-scope__list-container--list">
+                <h3 class="project-scope__list-container--list--title list-heading u-bold">Development</h3>
+                <li class="project-scope__list-container--list--el list-item">Frontend Development</li>
+                <li class="project-scope__list-container--list--el list-item">Accessibility Standards</li>
+                <li class="project-scope__list-container--list--el list-item">Current Technologies/ processes</li>
+            </ul>
+        </div>
     </section>
 
     <main>
 
-        <!-- process -->
-        <section class="section-thought">
-            <h1 class="heading-primary">Process</h1>
-            <div class="thought__grid">
-                <div>
-                    <img src="imgs/project3/original.png" class="thought__grid--item1 u-photo-auto-resize" alt="">
-                    <div class="thought__grid--item3 caption">
-                        The original UI that I started with provided by the coding train
-                    </div>
-                </div>
-                <div class="thought__grid--item2">
-                    <h2 class="sub-head">Design</h2>
-                    <p class="paragraph">
-                        This was the taking off point for the UI of the web app. The major changes were ading an
-                        automatic dark mode depending on wheather or not the ISS was covered by the sun. In addition,
-                        I wanted to go for NASA-like color theme and used some of their colors in my app.
-                    </p>
-                    <h2 class="sub-head u-space-paragraphs">Development (coding)</h2>
-                    <p class="paragraph">
-                        Other than displaying the current coordinates, there were no interactions. I decided
-                        to make dropdowns for the stats & astronauts as well as include a hover state when the
-                        user scrolls past the "ISS" in the title.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- final -->
-        <section class="section__final">
-            <h1 class="heading-primary">Final</h1>
-            <div class="final__imgs">
-                <img src="imgs/project3/ISS_iPhone.jpg" alt=""
-                    class="final__imgs--img final__imgs--1 u-photo-auto-resize">
-                <img src="imgs/project3/ISS_iPad.jpg" alt=""
-                    class="final__imgs--img final__imgs--2 u-photo-auto-resize">
-            </div>
-            <div class="final__text">
-                <h1 class="sub-head">Final Thoughts</h1>
-                <p class="paragraph">
-                    This was a really great tutorial I took and made it into something entirely new. I would have liked
-                    to have a conversion button
-                    feature to switch bettwen miles and kilometers but I just could not get that to work properly. Also,
-                    I spent some time playing
-                    around with dropdows for a mobile view, but had trouble removing them for the desktop/ larger iPad
-                    screen sizes.
-                </p>
-                <div class="paragraph u-space-paragraphs">
-                    However, with those considerations, this has been my most ambitous project and I really enojoy what
-                    I built!
-                </div>
-            </div>
-        </section>
     </main>
 
 
