@@ -12,8 +12,9 @@
 
 .u-bold {
     font-weight: 700;
-    color: rgba(var(--primary), .8);
-    letter-spacing: 1px;
+}
+.u-normal {
+    font-weight: normal;
 }
 
 .u-photo-auto-resize {

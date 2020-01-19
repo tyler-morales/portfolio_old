@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Hind:700|Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700&display=swap" rel="stylesheet">
     <meta name="Description" content="Author: Tyler Morales, Catagory: Web Developer Portfolio">
 
     <link rel="stylesheet" href="css/style.css">
@@ -43,76 +43,44 @@
     </header>
 
     <!-- PROJECT INTRODUCTION -->
-    <section class="overview">
-        <h2 class="heading-primary overview--title">Brief overview</h2>
-        <h3 class="sub-head overview--subhead">Getting Started</h3>
-        <p class="paragraph overview--para">
-            After viewing a simple youtube tutorial on how to connect to an API, I decided to take the project
-            quite a few steps forward. The tutorial by the Coding Train demonstrated how to succesfully link a
-            javascript
-            file to read data from an API that supplied data about the ISS. He also used this data to link to a map
-            library
-            to give real time data of where the ISS was located.
-        </p>
-        <h3 class="sub-head overview--subhead">Background</h3>
-        <p class="paragraph overview--para">
-            While reviewing the tutorial I decided to make my the web app more powerful and robust. This meant a few
-            more
-            additional features and a user interface that was intuitve and modern. I decided to display data about
-            longitude
-            and latitude coordinates, velocity, visibility (wheather or not the Earth's shadow was cast upon it), the
-            country
-            is was hovering, the number of people and their names aboard the ISS and a brief description of what the ISS
-            is.
-            <br> <br>
-            I felt that this was sufficent to clearly diffierentae my project from the tutorial and help myself stand
-            out compard
-            to other live ISS trackers.
-        </p>
-        <div class="overview__list">
-            <ul>
-                <h3 class="overview__list--heads sub-head">Technologies</h3>
-                <li class="overview__list--bullets">html</li>
-                <li class="overview__list--bullets">css / sass</li>
-                <li class="overview__list--bullets">javascript</li>
-            </ul>
-            <ul>
-                <h3 class="overview__list--heads sub-head">What I learned</h3>
-                <li class="overview__list--bullets">Async await functions</li>
-                <li class="overview__list--bullets">API's</li>
-                <li class="overview__list--bullets">Data-theme's</li>
-            </ul>
-            <ul>
-                <h3 class="overview__list--heads sub-head">Date</h2>
-                    <li class="overview__list--bullets">November 2019</li>
-                    <h4 class="overview__list--heads sub-head last-item">Codebase</h4>
-                    <a class="paragraph" href="https://github.com/tyler-morales/calculator">github</a>
-            </ul>
+    <section class="project-intro">
+        <!-- client bio -->
+        <h3 class="project-intro--header p-heading">An Industry leader and innovator</h3>
+        <div class="project-intro__client-bio">
+            <p class="project-intro__client-bio--para paragraph">The International Space Station (ISS) is a multi-nation
+                construction project that is the largest single structure humans ever put into space. Its main
+                construction was completed between 1998 and 2011, although the station continually evolves to include
+                new missions and experiments. It has been continuously occupied since Nov. 2, 2000.
+            </p>
         </div>
+
+        <!-- Short list of project details -->
+        <article class="project-intro__list-container">
+            <ul class="project-intro__list-container--list">
+                <h3 class="project-intro__list-container--list--title list-heading u-bold">Technologies</h3>
+                <li class="project-intro__list-container--list--el list-item">HTML</li>
+                <li class="project-intro__list-container--list--el list-item">CSS/ SASS</li>
+                <li class="project-intro__list-container--list--el list-item">Javascript</li>
+            </ul>
+            <ul class="project-intro__list-container--list">
+                <h3 class="project-intro__list-container--list--title list-heading u-bold">What I learned</h3>
+                <li class="project-intro__list-container--list--el list-item">API Intergration</li>
+                <li class="project-intro__list-container--list--el list-item">Async-await function</li>
+                <li class="project-intro__list-container--list--el list-item">HTML Data-themes</li>
+            </ul>
+            <ul class="project-intro__list-container--list">
+                <h3 class="project-intro__list-container--list--title list-heading u-bold">Completion</h3>
+                <li class="project-intro__list-container--list--el list-item">January 2020</li>
+            </ul>
+        </article>
+
     </section>
 
     <!-- the situation -->
-    <section class="overview">
-        <h2 class="heading-primary overview--title">The Situation</h2>
-        <h3 class="sub-head overview--subhead">The Problem</h3>
-        <p class="paragraph overview--para">
-            Many of the live ISS trackers that currently exist either provide too much data or data that
-            is completly useless to the layman. There is a gap between scientfic measurements and user friendly
-            and accesible views.
+    <section class="project-situation">
+        <h3 class="project-situation--pre-head u-normal">The Situation</h3>
+        <p class="project-situation--para u-bold">We need an interactive and real-time view of the ISS with a modern design
         </p>
-
-        <h3 class="sub-head overview--subhead">Strategy</h3>
-        <p class="paragraph overview--para">
-            Keeping accesibility and modernity in mind, I decided on implementing a few goals to keep me on track.
-        </p>
-        <div class="overview__list">
-            <ul class="u-center">
-                <h3 class="overview__list--heads sub-head u-center-text">Goals</h3>
-                <li class="overview__list--bullets">😃 Friendly & navigable UI</li>
-                <li class="overview__list--bullets">📚 Digestable & comprehensible bits of data</li>
-                <li class="overview__list--bullets">📱 Accesibility across devices</li>
-            </ul>
-        </div>
     </section>
 
     <main>

@@ -7,15 +7,18 @@
 @import "base/typography";
 @import "base/utilities";
 
-// componets
+// global componets
 @import "componets/btn-read";
 @import "componets/button";
+@import "componets/skill-card";
+@import "componets/tag";
+
+// project componets
 @import "componets/projects/container";
 @import "componets/projects/card";
 @import "componets/projects/header";
 @import "componets/projects/overview";
-@import "componets/skill-card";
-@import "componets/tag";
+@import "componets/projects/situation";
 
 // layout
 @import "layout/nav";
