@@ -14,6 +14,9 @@
     }
 }
 
+// project pages
+
+// h1
 .project-title {
     font-family: var(--font-montserrat);
     font-size: 7rem;
@@ -22,12 +25,31 @@
     margin-bottom: 3.7rem;
 }
 
-.project-pre-head {
+.section-title {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 9.8rem;
+    line-height: 10rem;
+    margin-bottom: 3.7rem;
+}
+
+.sub-section-title {
     font-family: var(--font-montserrat);
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 3.7rem;
-    margin-bottom: .7rem;
+    font-size: 7.6rem;
+    margin-bottom: 3.7rem;
+}
+
+
+// h2
+.section-heading {
+    font-family: var(--font-montserrat);
+    font-size: 5.2rem;
+}
+
+// h3
+.pre-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.9rem;
+    margin-bottom: 3.7rem;
 }
 
 .project-sub-title {
@@ -38,17 +60,6 @@
     margin-bottom: 3.7rem;
 }
 
-.section-heading{
-    font-family: var(--font-montserrat);
-    font-size: 5.2rem;
-}
-
-.context-block-heading {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.9rem;
-    line-height: 3.7rem;
-}
-
 .list-heading {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.9rem;
@@ -56,13 +67,49 @@
     margin-bottom: 2rem;
 }
 
-.list-item {
-    font-family: 'Montserrat', sans-serif;
+// h4
+.project-pre-head {
+    font-family: var(--font-montserrat);
     font-size: 1.8rem;
+    font-weight: 500;
     line-height: 3.7rem;
     margin-bottom: .7rem;
 }
 
+.mini-pre-head {
+    font-family: var(--font-lato);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+
+.p-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.9rem;
+    line-height: 3.7rem;
+}
+
+// h5
+.note{
+    font-family: var(--font-lato);
+    font-size: 1.4rem;
+    color: rgb(131, 131, 131);
+    margin-top: 2.7rem;
+}
+
+// li 
+.list-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.7rem;
+}
+.fig-list-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.9rem;
+    line-height: 3.7rem;
+}
+
+// p
 .paragraph {
     font-family: 'Lato', sans-serif;
     font-size: 1.8rem;
@@ -70,6 +117,17 @@
     color: #505050;
 }
 
+// quote
+.quote {
+    font-family: var(--font-montserrat);
+    font-size: 7.6rem;
+    line-height: 11.1rem;
+    margin-bottom: 25.8rem;
+}
+
+
+
+// other misc
 .sub-head {
     font-family: 'Hind', sans-serif;
     font-size: 2rem;

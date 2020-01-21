@@ -1,20 +1,13 @@
 .project-situation {
     display: grid;
-    margin-bottom: 25.8rem;
 
-    &--pre-head {
-        font-family: var(--font-montserrat);
-        font-size: 2.9rem;
-        margin-bottom: 3.4rem;
-    }
+    &--pre-head {}
 
     &--para {
-        font-family: var(--font-montserrat);
-        font-size: 7.6rem;
-        line-height: 11.1rem;
-        margin-bottom: 25.8rem;
+        
     }
-    &__solution{
+
+    &__solution {
         max-width: 60%;
     }
 }
