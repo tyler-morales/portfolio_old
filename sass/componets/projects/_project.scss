@@ -8,14 +8,10 @@
         }
     }
 
-    &__summary {}
+    // &__summary {}
 
     &__stage-01 {
-        &__heading {
-            &--para {
-                width: 70%;
-            }
-        }
+
 
         &__figure {
             display: grid;
@@ -27,11 +23,149 @@
     }
 
     &__stage-02 {
+        display: grid;
+        gap: 14rem;
 
-        &__heading {
-            &--para {
-                width: 70%;
+        &__words {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        &__card-container {
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+            justify-items: center;
+        }
+    }
+
+    &__stage-03 {
+        display: grid;
+        gap: 14rem;
+
+        &__container {
+            display: grid;
+            gap: 3rem;
+
+            &__imgs {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 7rem;
+            }
+
+            &__text {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 7rem;
             }
         }
+    }
+
+    &__stage-04 {
+        display: grid;
+        gap: 14rem;
+
+        &__wireframe-imgs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+        }
+
+        &__system-container {
+            display: grid;
+            gap: 7rem;
+
+            &__typography {
+                display: grid;
+                grid-template-columns: 2fr 4fr;
+                gap: 20rem;
+
+                &__assets {
+                    margin-top: 4rem;
+
+                    &__sub {
+                        font-family: var(--font-montserrat);
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+
+            &__colors {
+                display: grid;
+                grid-template-columns: 2fr 4fr;
+                gap: 20rem;
+
+                &__assets {
+                    margin-top: 4rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+            &__graphics {
+                display: grid;
+                grid-template-columns: 2fr 4fr;
+                gap: 20rem;
+
+                &__assets {
+                
+                }
+            }
+
+        }
+    }
+}
+
+.competition-card {
+    background-color: var(--offwhite);
+    border-radius: 1rem;
+    padding: 1.8rem;
+    max-width: 45rem;
+    box-shadow: var(--shadow-light);
+
+    &--head {
+        margin-top: 3.7rem;
+    }
+
+    &__tags {
+        margin-top: 3rem;
+    }
+}
+
+.placeholder {
+    background-color: lightblue;
+    outline: 1px solid blue;
+    width: 100%;
+    height: 30rem;
+}
+
+.placeholder-bg {
+    background-color: lightblue;
+    outline: 1px solid blue;
+    width: 100%;
+    height: 35rem;
+}
+
+.color__block {
+    margin: 2rem;
+    &--color--01 {
+        background-color: red;
+        width: 15rem;
+        height: 15rem;
+    }
+    &--color--02 {
+        background-color: green;
+        width: 15rem;
+        height: 15rem;
+    }
+    &--color--03 {
+        background-color: blue;
+        width: 15rem;
+        height: 15rem;
+    }
+    &--color--04 {
+        background-color: yellow;
+        width: 15rem;
+        height: 15rem;
     }
 }
