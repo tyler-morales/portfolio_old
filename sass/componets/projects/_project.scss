@@ -102,16 +102,29 @@
                     flex-wrap: wrap;
                 }
             }
+
             &__graphics {
                 display: grid;
                 grid-template-columns: 2fr 4fr;
                 gap: 20rem;
 
-                &__assets {
-                
-                }
+                // &__assets {}
             }
 
+        }
+    }
+
+    &__stage-05 {
+        &__tech-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+            justify-items: center;
+        }
+
+        &__features-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(40rem, 2fr));
+            margin: 0 auto;
         }
     }
 }
@@ -148,21 +161,25 @@
 
 .color__block {
     margin: 2rem;
+
     &--color--01 {
         background-color: red;
         width: 15rem;
         height: 15rem;
     }
+
     &--color--02 {
         background-color: green;
         width: 15rem;
         height: 15rem;
     }
+
     &--color--03 {
         background-color: blue;
         width: 15rem;
         height: 15rem;
     }
+
     &--color--04 {
         background-color: yellow;
         width: 15rem;

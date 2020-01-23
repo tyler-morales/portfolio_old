@@ -205,6 +205,9 @@ ul {
 .u-mt-sm {
   margin-top: 1rem; }
 
+.u-pad-rbl {
+  padding: 0 1rem 1rem 1rem; }
+
 .u-upper {
   text-transform: uppercase; }
 
@@ -307,13 +310,12 @@ ul {
     .tag:last-child {
       margin-bottom: 0; } }
 
-.context-block {
-  margin: 20rem 0; }
-  .context-block--head {
-    margin-bottom: 3.7rem;
-    max-width: 60%; }
-  .context-block--para {
-    max-width: 80%; }
+.context-block--head {
+  margin-bottom: 3.7rem;
+  max-width: 60%; }
+
+.context-block--para {
+  max-width: 80%; }
 
 .project-card {
   box-shadow: var(--shadow-light);
@@ -435,6 +437,14 @@ ul {
         display: grid;
         grid-template-columns: 2fr 4fr;
         gap: 20rem; }
+  .process__stage-05__tech-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    justify-items: center; }
+  .process__stage-05__features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40rem, 2fr));
+    margin: 0 auto; }
 
 .competition-card {
   background-color: var(--offwhite);
